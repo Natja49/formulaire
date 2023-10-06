@@ -1,0 +1,92 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.content {
+    background-color: #E1E1E1;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    border: solid 2px;
+    border-radius: 10px;
+    border-color: #75eb9b;
+    display: flex;
+    justify-content: space-around;
+    flex-direction:column;
+}
+
+.global {
+    display: flex;
+    justify-content: space-around;
+    flex-direction:row;
+}
+
+.gauche {
+    padding-left: 15px;
+    flex: 1;
+}
+
+.gauche input {
+    width: 85%;
+    padding: 5px;
+    margin-bottom: 30px;
+    background-color: #E8EEEF;
+    border: none;
+    border-radius: 5px;
+}
+
+.gauche select {
+    width: 87%;
+    padding: 5px;
+    margin-bottom: 30px;
+    background-color: #E8EEEF;
+    border: none;
+    border-radius: 5px;
+}
+
+.gauche textarea {
+    width: 85%;
+    padding: 5px;
+    padding-bottom: 120px;
+    margin-bottom: 30px;
+    background-color: #E8EEEF;
+    border: none;
+    border-radius: 5px;
+}
+
+.droite {
+    flex: 1;
+}
+
+legend {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+hr {
+    height: 1px;
+    background-color: #3DBB90;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 96.5%;
+}
+
+button {
+    width: 96.5%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: #3DBB90;
+    color: white;
+    border: 1px solid #3DBB90;
+    box-shadow: 0 0 5px ;
+    align-self: center;
+}
